@@ -18,10 +18,10 @@ DATABASE=./data
 
 ## how to use
 
-###
+### get currency detail
 
 ```
-bash ./src/...
+bash ./src/currency.sh BTC 
 ```
 
 ## license
