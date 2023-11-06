@@ -10,8 +10,10 @@ prop="${3}"
 
 content="${4}"
 
-mkdir -p "${DATABASE}/${index}/${id}"
-touch "${DATABASE}/${index}/${id}/${prop}"
-echo "${content}"> "${DATABASE}/${index}/${id}/${prop}"
+created_file="${DATABASE}/${index}/${id}/${prop}"
 
-ls -la "${DATABASE}/${index}/${id}/${prop}"
+mkdir -p "${DATABASE}/${index}/${id}"
+touch "${created_file}"
+echo "${content}" > "${created_file}"
+
+ls -la "${created_file}"
