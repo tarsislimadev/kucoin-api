@@ -36,6 +36,12 @@ bash ./src/market/orderbook/level1.sh usdt brl
 bash ./src/market/allTickers.sh 
 ```
 
+### get fiat price
+
+```
+bash ./src/prices.sh 
+```
+
 ## license
 
 [MIT](./LICENSE)
