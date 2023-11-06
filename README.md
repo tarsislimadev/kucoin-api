@@ -24,6 +24,18 @@ DATABASE=./data
 bash ./src/currency.sh BTC 
 ```
 
+### get ticker
+
+```
+bash ./src/market/orderbook/level1.sh usdt brl
+```
+
+### get all tickers
+
+```
+bash ./src/market/allTickers.sh 
+```
+
 ## license
 
 [MIT](./LICENSE)
